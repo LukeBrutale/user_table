@@ -12,7 +12,7 @@ export default function App() {
   const fetchUsers = async () => {
     setIsLoading(true);
     try {
-      const response = await userService.getUsers(); // ensure userService.getUsers is correctly typed
+      const response = await userService.getUsers();
       dispatch(setUsers(response.data));
     } catch (error) {
       console.error("Error fetching users:", error);
