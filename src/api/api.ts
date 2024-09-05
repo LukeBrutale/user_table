@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
-import { createUserService } from "./userService";
+import { createUserService } from "./userService.ts";
 
 export const API_URL = "https://jsonplaceholder.typicode.com";
 

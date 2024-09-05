@@ -1,6 +1,6 @@
 import React from "react";
-import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
-import { setFilter, FilterType } from "../../store/userSlice";
+import { useAppSelector, useAppDispatch } from "../../hooks/hooks.ts";
+import { setFilter, FilterType } from "../../store/userSlice.ts";
 
 export default function Filters() {
   const dispatch = useAppDispatch();
