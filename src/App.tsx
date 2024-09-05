@@ -23,7 +23,7 @@ export default function App() {
 
   useEffect(() => {
     fetchUsers();
-  }, []);
+  });
 
   return (
     <div className="wrapper">
